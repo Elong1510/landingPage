@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="96x96" href="./img/test-logo.jpg">
+
+    <title>Test Sever</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <!-- Google Font & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- nav-top -->
+        <div class="container">
+            <div class="row">
+                <!-- nav-top -->
+                <div class="col-12">
+                    <div class="nav-top">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-3">
+                                <!-- this is the logo -->
+                                <div class="d-none d-md-block">
+                                    <img src="./img/Asset 21.png" class="img-logo1" style="margin-left:30%;" alt="">
+                                </div>
+                                <div class="d-block d-md-none">
+                                    <img src="./img/Asset 21.png" class="img-logo" style="margin-left:10%;" alt="">
+                                </div>
+                            </div>
+                            <div class="col-7 col-md-6"></div>
+                            <!-- this is the navigation path -->
+                            <div class="col-2 col-md-3">
+                                <div class="nav-bar" style="margin-right:50px;">
+                                    <div class="d-none d-md-block">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="btn-dk " data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal">
+                                                Đăng ký ngay
+                                            </button>
+                                            <!-- MENU -->
+                                            <a href="#" id="vie" value="vie" name="vie" type="button"
+                                                class="btn-nav">Vn</a>
+                                            <span class="or">|</span>
+                                            <a href="#" id="eng" value="name" name="eng" type="button"
+                                                class="btn-nav">En</a>
+                                        </div>
+                                    </div>
+                                    <div class="d-block d-md-none d-flex align-items-center" style="margin-right:10px;">
+                                        <a href="#" id="vie" value="vie" name="vie" type="button" class="btn-nav">Vn</a>
+                                        <span class="or">|</span>
+                                        <a href="#" id="eng" value="name" name="eng" type="button"
+                                            class="btn-nav">En</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="p-3 text-end">
+
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form action="" method="">
+                                            <div class="text-center">
+                                                <h4 class="form-title">Liên hệ tư vấn</h4>
+                                                <div class="mb-3">
+                                                    <label for="exampleFormControlInput1" class="form-label">Họ và
+                                                        Tên</label>
+                                                    <input type="text" class="form-control"
+                                                        id="exampleFormControlInput1" placeholder="Nguyễn Văn A">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="exampleFormControlInput1" class="form-label">Số điện
+                                                        thoại</label>
+                                                    <input type="number" class="form-control"
+                                                        id="exampleFormControlInput1" placeholder="0911 420 619">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="exampleFormControlInput1"
+                                                        class="form-label">Email</label>
+                                                    <input type="email" class="form-control"
+                                                        id="exampleFormControlInput1"
+                                                        placeholder="nguyenvana911@gmail.com">
+                                                </div>
+                                                <button type="submit" class="btn-theme">Đăng ký
+                                                    ngay
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- form -->
+        <div class="container">
+            <div class="row">
+                <!-- <div class="bg-banner" style="background-image: url('./img/banner2.png'); background-repeat:no-repeat;">
+
+        </div> -->
+                <img src="./img/banner1.png" class="" alt="">
+                <div class="d-none d-md-block text-center"
+                    style="margin-top:-250px; font-weight:600; font-size:17px; color:#fff">
+                    <span>
+                        Ưu đãi
+                        đặc biệt
+                        <span class="fw-bold">20% phí khám mắt</span> cho
+                        trẻ em
+                    </span>
+                    <br>
+                    <span>và nhiều phần quà hấp dẫn</span>
+                </div>
+                <div class="d-block d-md-none text-center"
+                    style="margin-top:-100px; font-weight:600; font-size:10px; color:#fff">
+                    <span>
+                        Ưu đãi
+                        đặc biệt
+                        <span class="fw-bold">20% phí khám mắt</span> cho
+                        trẻ em
+                    </span>
+                    <br>
+                    <span>và nhiều phần quà hấp dẫn</span>
+                </div>
+                <!-- <div class="" style="background-image:url('./img/banner2.png');"></div> -->
+                <div class="col-10 offset-1">
+                    <div class="row d-flex align-items-center text-center banner-float1 bg-form shadow"
+                        style="border-radius:20px">
+                        <!-- img -->
+                        <div class="col-md-6 d-none d-md-block">
+                            <img src="./img/box.png" class="w-100 p-5" alt="">
+                        </div>
+                        <!-- form -->
+                        <div class="col-12 col-md-6 p-4">
+                            <form action="" method="">
+                                <div class="m-3">
+                                    <h4 class="form-title p-3">Liên hệ tư vấn</h4>
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Họ và Tên</label>
+                                        <input type="text" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="Nguyễn Văn A">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Số điện thoại</label>
+                                        <input type="number" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="0911 420 619">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="nguyenvana911@gmail.com">
+                                    </div>
+                                    <button type="submit" class="btn-theme">Đăng ký ngay</button>
+                                </div>
+                            </form>
+                            <div class="m-3">
+                                <div class="row">
+                                    <a href="tel:02873016758" type="button" class="hotline-email-text">Hotline:
+                                        <br><span class="text-aec fw-bold"> 028 7301 6758 </span></a>
+                                </div>
+                                <div class="row">
+                                    <a href="#" type="button" class="hotline-email-text">Email:<br> <span
+                                            class="text-aec fw-bold"> web@americaneyecentervn.com </span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- about doctor, service -->
+        <div class="container">
+            <!-- about -->
+            <div class="text-center" style="margin-top:100px;">
+                <span class="title1 fw-bold">Về chúng tôi</span>
+            </div>
+            <div class="d-block d-md-none">
+                <div class="col-12" style="margin-top:60px;">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-6 d-flex align-items-center justify-content-center mb-3">
+                            <!-- <img src="./img/box.png" class="w-100" style="border-radius:300px;" alt=""> -->
+                            <img src="./img/about.png" class="w-100" alt="">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="" style="font-size:10px; margin-left:18px">
+                                <p>
+                                    American Eye Center được thành lập với mong muốn trở thành một trong những đơn vị
+                                    hàng
+                                    đầu trong lĩnh vực chăm sóc mắt. Giúp nâng cao sức khỏe mắt và chất lượng cuộc sống
+                                    cho
+                                    từng bệnh nhân.
+                                </p>
+                                <p>
+                                    Tại đây chúng tôi với những kỹ thuật tiên tiến, các Bác sĩ có chuyên môn đẳng cấp
+                                    quốc
+                                    tế y học theo tiêu chuẩn Hiệp Hội Nhãn Khoa Mỹ tại Việt Nam.
+                                </p>
+                                <p>
+                                    American Eye Center đã có hơn 10 năm hoạt động trong lĩnh vực và không ngừng khẳng
+                                    định
+                                    vị thế Thương hiệu dựa trên niềm tin của khách hàng đối với chúng tôi.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-none d-md-block">
+                <div class="col-12 col-md-8 offset-md-2" style="margin-top:40px;">
+                    <div class="row align-items-center">
+                        <div class="col-6">
+                            <img src="./img/about.png" alt="" class="w-100">
+                        </div>
+                        <div class="col-6">
+                            <div class="content">
+                                <p>
+                                    American Eye Center được thành lập với mong muốn trở thành một trong những đơn vị
+                                    hàng
+                                    đầu trong lĩnh vực chăm sóc mắt. Giúp nâng cao sức khỏe mắt và chất lượng cuộc sống
+                                    cho
+                                    từng bệnh nhân.
+                                </p>
+                                <p>
+                                    Tại đây chúng tôi với những kỹ thuật tiên tiến, các Bác sĩ có chuyên môn đẳng cấp
+                                    quốc
+                                    tế y học theo tiêu chuẩn Hiệp Hội Nhãn Khoa Mỹ tại Việt Nam.
+                                </p>
+                                <p>
+                                    American Eye Center đã có hơn 10 năm hoạt động trong lĩnh vực và không ngừng khẳng
+                                    định
+                                    vị thế Thương hiệu dựa trên niềm tin của khách hàng đối với chúng tôi.
+                                </p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <!-- doctor -->
+            <div class="" style="margin-top:80px;">
+                <div class="text-center">
+                    <span class="title1 fw-bold">Đội ngũ y khoa</span>
+                    <p>Đội hình mạnh mẽ nhất của chúng tôi</p>
+                </div>
+                <div class="d-none d-md-block">
+                    <div class="col-10 offset-1" style="margin-top:200px; margin-left:125px;">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="doctor-frame">
+                                    <!-- the picture and the background -->
+                                    <div class="bg-aec-gra"
+                                        style="height:auto; width:100%; border-radius:10px 10px 0 0;">
+                                        <img src="./img/wong-cut.png" class="background-img" alt="">
+                                    </div>
+                                    <!-- name and info -->
+                                    <div class="p-3 text-center">
+                                        <span class="doctor-name">Bác sĩ Kelvin Wong</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="doctor-frame">
+                                    <!-- the picture and the background -->
+                                    <div class="bg-aec-gra"
+                                        style="height:auto; width:100%; border-radius:10px 10px 0 0;">
+                                        <img src="./img/bac-cut.png" class="background-img" alt="">
+                                    </div>
+                                    <!-- name and info -->
+                                    <div class="p-3 text-center">
+                                        <span class="doctor-name">Bác sĩ Phạm Hồng Nam Trân
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="doctor-frame">
+                                    <!-- the picture and the background -->
+                                    <div class="bg-aec-gra"
+                                        style="height:auto; width:100%; border-radius:10px 10px 0 0;">
+                                        <img src="./img/lam-cut.png" class="background-img" alt="">
+                                    </div>
+                                    <!-- name and info -->
+                                    <div class="p-3 text-center">
+                                        <span class="doctor-name">Bác sĩ Nguyễn Hoàng Lâm</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center" style="margin-top:50px; margin-left:-12px;">
+                                <a href="#" class="btn-doctor">Xem thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- mobile-doctor -->
+                <div class="d-block d-md-none">
+                    <div class="col-12" style="margin-top:100px">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="doctor-frame1">
+                                    <!-- the picture and the background -->
+                                    <div class="bg-aec-gra"
+                                        style="height:70px; width:100%; border-radius:10px 10px 0 0;">
+                                        <img src="./img/wong-cut.png" class="background-img1"
+                                            style="margin-top: -40px; margin-left:45px" alt="">
+                                    </div>
+                                    <!-- name and info -->
+                                    <div class="p-2 text-center">
+                                        <span class="doctor-name1">Bác sĩ Kelvin Wong</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="doctor-frame1">
+                                    <!-- the picture and the background -->
+                                    <div class="bg-aec-gra"
+                                        style="height:70px; width:100%; border-radius:10px 10px 0 0;">
+                                        <img src="./img/bac-cut.png" class="background-img1"
+                                            style="margin-top: -40px; margin-left:45px;" alt="">
+                                    </div>
+                                    <!-- name and info -->
+                                    <div class="p-2 text-center">
+                                        <span class="doctor-name1">Bác sĩ Phạm Hồng Nam Trân</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6" style="margin-left:25%; margin-top:60px;">
+                                <div class="doctor-frame1">
+                                    <!-- the picture and the background -->
+                                    <div class="bg-aec-gra"
+                                        style="height:70px; width:100%; border-radius:10px 10px 0 0;">
+                                        <img src="./img/lam-cut.png" class="background-img1"
+                                            style="margin-top: -40px; margin-left:45px" alt="">
+                                    </div>
+                                    <!-- name and info -->
+                                    <div class="p-2 text-center">
+                                        <span class="doctor-name1">Bác sĩ Nguyễn Hoàng Lâm </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center mt-5">
+                                <a href="#" class="btn-doctor">Xem thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Service -->
+            <div class="" style="margin-top:80px;">
+                <div class="text-center" style="margin-bottom:50px;">
+                    <span class="title1 fw-bold">Dịch vụ</span>
+                </div>
+            </div>
+
+            <div class="d-none d-md-block">
+                <div class="text-center">
+                    <div class="col-10 offset-1">
+                        <div class="row d-flex justify-content-evenly">
+                            <div class="col-3" style="margin-left:60px;">
+                                <a href="#" type="button" class="btn-carousel">
+                                    <img src="./img/tong quat.png" class="" style="height:auto; max-width: 100%;"
+                                        alt="">
+                                    <div style="margin-top: -130px;">
+                                        <span class="text-white fw-semibold" style="font-size:20px;">
+                                            Khám mắt tổng quát
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-3">
+                                <a href="#" type="button" class="btn-carousel">
+                                    <img src="./img/orthor.png" class="" style="height:auto; max-width: 100%;" alt="">
+                                    <div style="margin-top: -147px;">
+                                        <span class="text-white fw-semibold" style="font-size:20px;">
+                                            Kính áp tròng cứng ORTHO-K
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-3" style="margin-right:60px;">
+                                <a href="#" type="button" class="btn-carousel ">
+                                    <img src="./img/duc thuy tinh the.png" class=""
+                                        style="height:auto; max-width: 100%;" alt="">
+                                    <div style="margin-top: -130px;">
+                                        <span class="text-white fw-semibold" style="font-size:20px;">
+                                            Đục thủy tinh thể
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row d-flex justify-content-evenly" style="margin-top:120px;">
+                            <div class="col-3" style="margin-left:60px;">
+                                <a href="#" type="button" class="btn-carousel ">
+                                    <img src="./img/lao thi.png" class="" style="height:auto; max-width: 100%;" alt="">
+                                    <div style="margin-top: -148px;">
+                                        <span class="text-white fw-semibold" style="font-size:20px;">
+                                            Phẫu thuật lão thị Prelex
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-3">
+                                <a href="#" type="button" class="btn-carousel ">
+                                    <img src="./img/lasik.png" class="" style="height:auto; max-width: 100%;" alt="">
+                                    <div style="margin-top: -130px;">
+                                        <span class="text-white fw-semibold" style="font-size:20px;">
+                                            Phẫu thuật Lasik
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-3" style="margin-right:60px;">
+                                <a href="#" type="button" class="btn-carousel ">
+                                    <img src="./img/kiem soat can thi.png" class=""
+                                        style="height:auto; max-width: 100%;" alt="">
+                                    <div style="margin-top: -130px;">
+                                        <span class="text-white fw-semibold" style="font-size:20px;">
+                                            Kiểm soát cận thị
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="text-center" style="margin-top:150px;">
+                                <a href="#" class="btn-doctor">Xem thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- mobile -->
+
+            <div class="d-block d-md-none">
+                <div class="row p-4">
+                    <div class="col-6 align-items-center text-center my-2">
+                        <a href="#" type="button" class="btn-carousel1">
+                            <img src="./img/tong quat.png" class="" style="height:auto; max-width: 100%;" alt="">
+                            <div style="margin-top: -100px;">
+                                <span class="text-white fw-semibold" style="font-size:16px;">
+                                    Khám mắt tổng quát
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 align-items-center text-center my-2">
+                        <a href="#" type="button" class="btn-carousel1">
+                            <img src="./img/orthor.png" class="" style="height:auto; max-width: 100%;" alt="">
+                            <div style="margin-top: -100px;">
+                                <span class="text-white fw-semibold" style="font-size:16px;">
+                                    Kính áp tròng cứng ORTHO-K
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 align-items-center text-center my-2">
+                        <a href="#" type="button" class="btn-carousel1">
+                            <img src="./img/duc thuy tinh the.png" class="" style="height:auto; max-width: 100%;"
+                                alt="">
+                            <div style="margin-top: -100px; padding:5px;">
+                                <span class="text-white fw-semibold" style="font-size:16px;">
+                                    Đục thủy tinh thể
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 align-items-center text-center my-2">
+                        <a href="#" type="button" class="btn-carousel1">
+                            <img src="./img/lao thi.png" class="" style="height:auto; max-width: 100%;" alt="">
+                            <div style="margin-top: -100px; padding:5px;">
+                                <span class="text-white fw-semibold" style="font-size:16px;">
+                                    Phẫu thuật lão thị Prelex
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 align-items-center text-center my-2">
+                        <a href="#" type="button" class="btn-carousel1">
+                            <img src="./img/lasik.png" class="" style="height:auto; max-width: 100%;" alt="">
+                            <div style="margin-top: -90px; padding:5px;">
+                                <span class="text-white fw-semibold" style="font-size:16px;">
+                                    Phẫu thuật Lasik
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 align-items-center text-center my-2">
+                        <a href="#" type="button" class="btn-carousel1">
+                            <img src="./img/kiem soat can thi.png" class="" style="height:auto; max-width: 100%;"
+                                alt="">
+                            <div style="margin-top: -100px; padding:5px;">
+                                <span class="text-white fw-semibold" style="font-size:16px;">
+                                    Kiểm soát cận thị
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="text-center" style="margin-top:30px;">
+                        <a href="#" class="btn-doctor">Xem thêm</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- another banner -->
+        <div class="mt-4">
+            <div class="row">
+                <div class="">
+                    <div class="col-12">
+                        <img src="./img/banner3.png" width="100%" alt="">
+                    </div>
+                    <div class="col-12 col-md-10 offset-md-1">
+                        <div class="d-none d-md-block">
+                            <div class="d-flex align-items-between justify-content-center">
+                                <div class="col-3 col-md-3 ms-3">
+                                    <img src="./img/g1.png" class="shadow" style="width:100%; border-radius:20px"
+                                        alt="">
+                                    <div class="text-center" style="margin-top:-100px;padding:10px;">
+                                        <span style="font-weight:600; color:#999999; font-size:10px;">Nhận ngay
+                                            <span class="text-aec fw-bold">quà tặng đặc biệt</span> khi mua
+                                            sắm <br>với hóa đơn
+                                            một triệu
+                                            đồng</span>
+                                    </div>
+                                </div>
+                                <div class="col-3 col-md-3 mx-3">
+                                    <img src="./img/g2.png" class="shadow" style="width:100%; border-radius:20px"
+                                        alt="">
+                                    <div class="text-center" style="margin-top:-100px;padding:10px;">
+                                        <span style="font-weight:600; color:#999999; font-size:10px;">Voucher trị giá
+                                            <span class="text-aec fw-bold">200,000Đ<br></span> cho kính áp tròng SEED
+                                            Silfa-1
+                                            ngày</span>
+                                    </div>
+                                </div>
+                                <div class="col-3 col-md-3 me-3">
+                                    <img src="./img/g3.png" class="shadow" style="width:100%; border-radius:20px"
+                                        alt="">
+                                    <div class="text-center" style="margin-top:-100px;padding:10px;">
+                                        <span style="font-weight:600; color:#999999; font-size:10px;">Giảm
+                                            <span class="text-aec fw-bold">25%</span> cho các thương hiệu kính*</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-block d-md-none" style="padding:40px;">
+                            <div class="row">
+                                <!-- the picture and text -->
+                                <div class="col-6 d-flex justify-content-center">
+                                    <img src="./img/g1.png" alt="" style="border-radius:20px;height:150px;" class="">
+                                </div>
+                                <div class="col-6 d-flex align-items-center justify-content-center">
+                                    <span style="font-weight:600; color:#999999; font-size:10px;">Nhận ngay
+                                        <span class="text-aec fw-bold">quà tặng đặc biệt</span> khi mua
+                                        sắm <br>với hóa đơn
+                                        một triệu
+                                        đồng</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <!-- the picture and text -->
+                                <div class="col-6 d-flex align-items-center justify-content-center">
+                                    <span style="font-weight:600; color:#999999; font-size:10px;">Voucher trị giá
+                                        <span class="text-aec fw-bold">200,000Đ<br></span> cho kính áp tròng SEED
+                                        Silfa-1
+                                        ngày</span>
+                                </div>
+                                <div class="col-6 d-flex justify-content-center">
+                                    <img src="./img/g2.png" alt="" style="border-radius:20px;height:150px;" class="">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <!-- the picture and text -->
+                                <div class="col-6 d-flex justify-content-center">
+                                    <img src="./img/g3.png" alt="" style="border-radius:20px;height:150px;" class="">
+                                </div>
+                                <div class="col-6 d-flex align-items-center justify-content-center">
+                                    <span style="font-weight:600; color:#999999; font-size:10px;">Nhận ngay
+                                        <span style="font-weight:600; color:#999999; font-size:10px;">Giảm
+                                            <span class="text-aec fw-bold">25%</span> cho các thương hiệu kính*</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- form and map -->
+        <div class="container">
+            <!-- form and map -->
+            <div class="row mt-5">
+                <div class="d-none d-md-block" style="margin-top:80px;">
+                    <div class="col-10 offset-1 shadow" style="border-radius:20px; padding:20px;">
+                        <!-- form -->
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-6" style="margin-bottom:30px;">
+                                <div class="text-center p-4" style="border-radius:20px;">
+                                    <form action="" method="">
+                                        <div class="">
+                                            <h4 class="form-title">Liên hệ tư vấn</h4>
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label">Họ và
+                                                    Tên</label>
+                                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                    placeholder="Nguyễn Văn A">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label">Số điện
+                                                    thoại</label>
+                                                <input type="number" class="form-control" id="exampleFormControlInput1"
+                                                    placeholder="0911 420 619">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                                    placeholder="nguyenvana911@gmail.com">
+                                            </div>
+                                            <button type="submit" class="btn-theme">Đăng ký ngay</button>
+                                        </div>
+                                    </form>
+                                    <div class="mt-3">
+                                        <div class="row">
+                                            <a href="tel:02873016758" type="button" class="hotline-email-text">Hotline:
+                                                <br><span class="text-aec fw-bold"> 028 7301 6758 </span></a>
+                                        </div>
+                                        <div class="row">
+                                            <a href="#" type="button" class="hotline-email-text">Email:<br> <span
+                                                    class="text-aec fw-bold"> web@americaneyecentervn.com </span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- map -->
+                            <div class="col-6 d-none d-md-block">
+                                <div class="mt-3">
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15677.202711845759!2d106.70748746747257!3d10.78826741152217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752946a075c065%3A0xe93779559f18ddcb!2sAmerican%20Eye%20Center%20Vietnam%20-%20Sunwah%20Pearl!5e0!3m2!1sen!2s!4v1665142375000!5m2!1sen!2s"
+                                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- mobile -->
+                <div class="d-block d-md-none" style="margin-top:10px;">
+                    <div class="col-10 offset-1 shadow" style="border-radius:20px; padding:20px;">
+                        <!-- form -->
+                        <div class="row">
+                            <div class="col-12 col-md-6" style="margin-bottom:30px;">
+                                <div class="text-center p-4" style="border-radius:20px;">
+                                    <form action="" method="">
+                                        <div class="">
+                                            <h4 class="form-title">Liên hệ tư vấn</h4>
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label">Họ và
+                                                    Tên</label>
+                                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                    placeholder="Nguyễn Văn A">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label">Số điện
+                                                    thoại</label>
+                                                <input type="number" class="form-control" id="exampleFormControlInput1"
+                                                    placeholder="0911 420 619">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                                    placeholder="nguyenvana911@gmail.com">
+                                            </div>
+                                            <button type="submit" class="btn-theme">Đăng ký ngay</button>
+                                        </div>
+                                    </form>
+                                    <div class="mt-3">
+                                        <div class="row">
+                                            <a href="tel:02873016758" type="button" class="hotline-email-text">Hotline:
+                                                <br><span class="text-aec fw-bold"> 028 7301 6758 </span></a>
+                                        </div>
+                                        <div class="row">
+                                            <a href="#" type="button" class="hotline-email-text">Email: <span
+                                                    class="text-aec fw-bold"> web@americaneyecentervn.com </span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- map -->
+                            <div class="col-6 d-none d-md-block">
+                                <div class="mt-3">
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15677.202711845759!2d106.70748746747257!3d10.78826741152217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752946a075c065%3A0xe93779559f18ddcb!2sAmerican%20Eye%20Center%20Vietnam%20-%20Sunwah%20Pearl!5e0!3m2!1sen!2s!4v1665142375000!5m2!1sen!2s"
+                                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="mt-4">
+            <div class="d-none d-md-block row bg-aec p-5">
+                <div class="col-12 col-md-8 offset-md-2">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-6">
+                            <div class="mb-3 row">
+                                <div class="col-6">
+                                    <p class="text-white" style="font-weight: 600;">Cresent Plaza</p>
+                                </div>
+                                <div class="col-6">
+                                    <span class="text-footer text-white"> Tầng 5, 105 Tôn Dật Tiên, Phường Tân Phú, Quận
+                                        7,
+                                        TP HCM <br>
+                                        <a href="tel:02854136758" class="text-footer text-white fw-semibold"
+                                            style="font-size:14px">Hotline:
+                                            028 5413
+                                            6758</a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="mb-3 row">
+                                <div class="col-6">
+                                    <p class="text-white" style="font-weight: 600;">Sunwah Pearl</p>
+                                </div>
+                                <div class="col-6">
+                                    <span class="text-footer text-white"> S14,
+                                        Sunwah Pearl
+                                        Golden House, 90 Đ. Nguyễn Hữu Cảnh, Phường 22, Bình Thạnh, Thành phố Hồ Chí
+                                        Minh,
+                                        Vietnam <br>
+                                        <a href="tel:02873016758" class="text-footer text-white fw-semibold"
+                                            style="font-size:14px">Hotline:
+                                            028 7301
+                                            6758</a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <a href="mailto:web@americaneyecentervn.com" class="text-footer fw-semibold text-white"
+                                    style="font-size:20px">Email:
+                                    web@americaneyecentervn.com</a>
+                            </div>
+                        </div>
+                        <div class="col-6" style="text-align:center;">
+                            <img src="./img/logo-white-aec.png" class="logo-footer" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- mobile -->
+            <div class="d-block d-md-none row bg-aec p-5">
+                <div class="col-12 col-md-8 offset-md-2">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-12 mb-5">
+                            <img src="./img/logo-white-aec.png" class="logo-footer1" style="max-width:100%;" alt="">
+                        </div>
+                        <div class="col-12">
+                            <div class="mb-3 row">
+                                <div class="col-6">
+                                    <p class="text-white" style="font-weight: 600;">Cresent Plaza</p>
+                                </div>
+                                <div class="col-6">
+                                    <span class="text-footer text-white"> Tầng 5, 105 Tôn Dật Tiên, Phường Tân Phú, Quận
+                                        7,
+                                        TP HCM <br>
+                                        <a href="tel:02854136758" class="text-footer text-white fw-semibold"
+                                            style="font-size:14px">Hotline:<br>
+                                            028 5413
+                                            6758</a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="mb-3 row">
+                                <div class="col-6">
+                                    <p class="text-white" style="font-weight: 600;">Sunwah Pearl</p>
+                                </div>
+                                <div class="col-6">
+                                    <span class="text-footer text-white"> S14,
+                                        Sunwah Pearl
+                                        Golden House, 90 Đ. Nguyễn Hữu Cảnh, Phường 22, Bình Thạnh, Thành phố Hồ Chí
+                                        Minh,
+                                        Vietnam <br>
+                                        <a href="tel:02873016758" class="text-footer text-white fw-semibold"
+                                            style="font-size:14px">Hotline:<br>
+                                            028 7301
+                                            6758</a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <a href="mailto:web@americaneyecentervn.com" class="text-footer fw-semibold text-white"
+                                    style="font-size:20px">Email:
+                                    web@americaneyecentervn.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white d-flex align-items-center justify-content-end"
+            style="color:#212121; font-size:10px; padding:5px;">
+            <span class="text-secondary fw-semibold mx-3" style="font-size:14px;">Copyright © 2022 American Eye
+                Center
+                Vietnam. All right
+                reserved</span>
+        </div>
+    </div>
+</body>
+
+</html>

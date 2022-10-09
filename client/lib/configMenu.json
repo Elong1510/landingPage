@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "name": "CHUNG",
+        "submenu": [
+            {
+                "id": "1",
+                "name": "Eng",
+                "link": "home-eng",
+                "icon": "filter_alt"
+            },
+            {
+                "id": "2",
+                "name": "Vie",
+                "link": "home-vie",
+                "icon": "sports_motorsports"
+            }
+        ]
+    }
+]
